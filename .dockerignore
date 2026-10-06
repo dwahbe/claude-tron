@@ -1,0 +1,3 @@
+*
+!server/
+!plugins/lightcycles/hooks/protocol.ts

@@ -1,0 +1,11 @@
+# Render Blueprint: the lobby as one free Docker web service. Render sets PORT,
+# which the server listens on, and serves it over HTTPS.
+services:
+  - type: web
+    name: lightcycles
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    autoDeployTrigger: commit

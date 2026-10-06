@@ -1,0 +1,12 @@
+{
+  "name": "lightcycles",
+  "description": "Light cycles: a multiplayer arena game you play inside Claude Code",
+  "owner": { "name": "Dylan Wahbe" },
+  "plugins": [
+    {
+      "name": "lightcycles",
+      "source": "./plugins/lightcycles",
+      "description": "Multiplayer light cycles in a shared online lobby: /cycles"
+    }
+  ]
+}

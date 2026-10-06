@@ -1,0 +1,4 @@
+.DS_Store
+node_modules/
+# Types Claude Code writes beside a plugin it loads from a folder
+plugins/*/.claude-plugin/types/

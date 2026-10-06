@@ -1,0 +1,6 @@
+{
+  "name": "lightcycles",
+  "version": "0.1.0",
+  "description": "Multiplayer light cycles in a shared online lobby: /cycles",
+  "author": { "name": "Dylan Wahbe" }
+}
