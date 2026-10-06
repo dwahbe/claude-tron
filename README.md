@@ -52,7 +52,7 @@ claude plugin validate plugins/lightcycles
 claude plugin test plugins/lightcycles
 ```
 
-To try local changes in Claude Code, add this folder as a marketplace with `/plugin marketplace add /path/to/lightcycles` and install from it. Run `/reload-plugins` after you edit.
+To try local changes in Claude Code, add this folder as a marketplace with `/plugin marketplace add /path/to/claude-tron` and install from it. Run `/reload-plugins` after you edit.
 
 If you change the frame format, bump `PROTOCOL` in `plugins/lightcycles/hooks/protocol.ts`. Riders on an older plugin are then told to update instead of seeing a broken board.
 
